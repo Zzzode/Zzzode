@@ -1,32 +1,33 @@
-### Hi there 👋
+### **Hi there** <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
 
-<!--
-[![Zzzode's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zzzode&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+- 🔭 &nbsp;I’m currently working on WebAssembly/JavaScript Virtual Machines and toolchains
+- 🌱 &nbsp;I’m currently learning compiler optimization and PL
+- 💬 &nbsp;Ask me anything related to C/C++/WebAssembly/JavaScript and VMs
+- ⚡ &nbsp;Fun fact: I ❤️ 🐱s and PC Gaming (Steam Profile: [zzzode](https://steamcommunity.com/profiles/76561198310137136/))
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zzzode&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+### 📊 &nbsp;**This week I spent my time on**
 
-[![Zzzode's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Zzzode&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
--->
+![Wwakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Zzzode&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=888)
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zzzode&layout=compact" />
-  <br>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Zzzode&show_icons=true&count_private=true" />
-  <br>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Zzzode&layout=compact" />
-</a>
-
-<!--
-**Zzzode/Zzzode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### <b>🛠️&nbsp;&nbsp;Languages&nbsp;and&nbsp;Tools</b>
+<br/>
+<p align="left">
+  <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
+  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
+  <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
+  <a href="https://webassembly.github.io/spec/core/" target="_blank"> <img src="https://webassembly.github.io/spec/core/_static/webassembly.png" alt="cplusplus" width="40" height="40"/> </a>
+  <a href="https://www.docker.com/" target="_blank">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
+  <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a>
+  <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+  <a href="https://grafana.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+  <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
+  <a href="https://www.jenkins.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a>
+  <a href="https://www.elastic.co/kibana" target="_blank"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a>
+  <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
+  <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+  <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
+  <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+  <a href="https://redis.io" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
+</p>
