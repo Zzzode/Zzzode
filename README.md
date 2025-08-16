@@ -1,8 +1,8 @@
 ### **Hi there** <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%"></a>
 
-🔭  Deep into programming language design and compiler development.​
-🌱  Exploring advanced compiler optimizations and programming language theory.​
-💬  Feel free to ask me about C++/WebAssembly/PL/Compilers or VMs—I’m happy to chat!​
+🔭  Deep into programming language design and compiler development.​ \
+🌱  Exploring advanced compiler optimizations and programming language theory.​ \
+💬  Feel free to ask me about C++/WebAssembly/PL/Compilers or VMs—I’m happy to chat!​ \
 ⚡  Fun fact: I ❤️ 🐱s and PC Gaming (Steam Profile: [zzzode](https://steamcommunity.com/profiles/76561198310137136/))
 
 ### 📊 &nbsp;**This week I spent my time on**
