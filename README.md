@@ -70,7 +70,17 @@
 └──────────────────────────────────────────────────────────────────────────────────┘
 </pre>
 
-<img src="https://wakatime.com/share/@Zzzode/aed4a59f-990f-426b-a0da-aa9f108b9c6e.svg" width="100%"/>
+<h2 align="center">📊 Code Statistics</h2>
+
+<div align="center">
+
+<!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20hrs%200%20mins-blue?style=flat)
+
+**Loading...**
+<!--END_SECTION:waka-->
+
+</div>
 
 <br>
 
