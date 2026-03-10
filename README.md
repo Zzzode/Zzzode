@@ -75,9 +75,83 @@
 <div align="center">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20hrs%200%20mins-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.46%20million%20lines%20of%20code-blue?style=flat)
 
-**Loading...**
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 194 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 62 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                92 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.97 % 
+🌆 Daytime                229 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.36 % 
+🌃 Evening                564 commits         ███████████░░░░░░░░░░░░░░   42.76 % 
+🌙 Night                  434 commits         ████████░░░░░░░░░░░░░░░░░   32.90 % 
+```
+📅 **I'm Most Productive on Sunday** 
+
+```text
+Monday                   243 commits         █████░░░░░░░░░░░░░░░░░░░░   18.42 % 
+Tuesday                  118 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.95 % 
+Wednesday                113 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.57 % 
+Thursday                 171 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
+Friday                   57 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.32 % 
+Saturday                 151 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.45 % 
+Sunday                   466 commits         █████████░░░░░░░░░░░░░░░░   35.33 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Shanghai
+
+💬 Programming Languages: 
+C++                      9 hrs 38 mins       █████████░░░░░░░░░░░░░░░░   37.33 % 
+JSON                     3 hrs 36 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.95 % 
+Markdown                 3 hrs 17 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.72 % 
+CMake                    1 hr 45 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.81 % 
+TrafficScript            1 hr 41 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
+
+🔥 Editors: 
+VS Code                  15 hrs 19 mins      ███████████████░░░░░░░░░░   59.32 % 
+Trae                     10 hrs 30 mins      ██████████░░░░░░░░░░░░░░░   40.68 % 
+
+🐱‍💻 Projects: 
+VeloZ                    17 hrs 20 mins      █████████████████░░░░░░░░   67.14 % 
+client_ecommerce_lynx    4 hrs 21 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.87 % 
+VeloZ-Agents             1 hr 59 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.73 % 
+aime-react-ttml          1 hr 9 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.48 % 
+Unknown Project          39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
+
+💻 Operating System: 
+Mac                      22 hrs 6 mins       █████████████████████░░░░   85.60 % 
+WSL                      3 hrs 43 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.40 % 
+```
+
+**I Mostly Code in C++** 
+
+```text
+C++                      10 repos            ███████████░░░░░░░░░░░░░░   43.48 % 
+Python                   4 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.39 % 
+TypeScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
+Swift                    1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 % 
+MDX                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 % 
+```
+
+
+
+
+ Last Updated on 10/03/2026 14:33:58 UTC
 <!--END_SECTION:waka-->
 
 </div>
