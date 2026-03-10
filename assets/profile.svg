@@ -1,79 +1,49 @@
 <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    .terminal-text { font-family: 'Menlo', 'Monaco', 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; }
+    .prompt { fill: #3fb950; }
+    .cursor { fill: #c9d1d9; animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
 
-    <!-- Background Terminal Window -->
-    <rect x="0" y="0" width="800" height="400" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <!-- Background -->
+  <rect width="800" height="400" rx="12" fill="#0d1117" stroke="#30363d" />
 
-    <!-- Window Controls -->
-    <circle cx="25" cy="20" r="6" fill="#FF5F56"/>
-    <circle cx="45" cy="20" r="6" fill="#FFBD2E"/>
-    <circle cx="65" cy="20" r="6" fill="#27C93F"/>
+  <!-- Window Controls -->
+  <circle cx="25" cy="25" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="25" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="25" r="6" fill="#27c93f" />
 
-    <!-- Header Title -->
-    <text x="320" y="25" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 16px; font-weight: bold; fill: #00EBC0;">NEON PROFILE // IDENTITY</text>
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="header">zzzode@dev-machine</text>
 
-    <!-- Divider -->
-    <line x1="0" y1="45" x2="800" y2="45" stroke="#30363D" stroke-width="2"/>
+  <!-- Divider -->
+  <line x1="0" y1="55" x2="800" y2="55" stroke="#30363d" />
 
-    <!-- Left Column: Bio & Focus -->
-    <text x="40" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">>> IDENTITY_MATRIX</text>
-    <text x="40" y="110" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">Role: Compiler Engineer | VM Builder</text>
-    <text x="40" y="135" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">"Turning low-level complexity into systems</text>
-    <text x="40" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;"> that feel fast, clear, and elegant."</text>
+  <!-- Terminal Content -->
+  <g transform="translate(30, 90)">
+    <!-- Command 1 -->
+    <text x="0" y="0" class="terminal-text">
+      <tspan class="prompt">➜</tspan> <tspan fill="#79c0ff">~</tspan> whoami
+    </text>
+    <text x="0" y="25" class="terminal-text" fill="#e6edf3">Compiler Engineer | VM Enthusiast | Open Source Contributor</text>
 
-    <text x="40" y="200" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">>> CURRENT_FOCUS</text>
-    <rect x="40" y="215" width="160" height="24" rx="4" fill="#21262D" stroke="#FF4FD8" stroke-width="1"/>
-    <text x="50" y="231" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #FF4FD8;">VM Infra + Tooling</text>
+    <!-- Command 2 -->
+    <text x="0" y="65" class="terminal-text">
+      <tspan class="prompt">➜</tspan> <tspan fill="#79c0ff">~</tspan> cat skills.json
+    </text>
+    
+    <!-- JSON Output -->
+    <text x="0" y="90" class="terminal-text" fill="#e6edf3">{</text>
+    <text x="20" y="115" class="terminal-text" fill="#7ee787">"languages"</text><text x="110" y="115" class="terminal-text">: [</text><text x="135" y="115" class="terminal-text" fill="#a5d6ff">"C++"</text><text x="180" y="115" class="terminal-text">, </text><text x="195" y="115" class="terminal-text" fill="#a5d6ff">"Rust"</text><text x="245" y="115" class="terminal-text">, </text><text x="260" y="115" class="terminal-text" fill="#a5d6ff">"TypeScript"</text><text x="365" y="115" class="terminal-text">],</text>
+    <text x="20" y="140" class="terminal-text" fill="#7ee787">"interests"</text><text x="110" y="140" class="terminal-text">: [</text><text x="135" y="140" class="terminal-text" fill="#a5d6ff">"Compilers"</text><text x="230" y="140" class="terminal-text">, </text><text x="245" y="140" class="terminal-text" fill="#a5d6ff">"WebAssembly"</text><text x="350" y="140" class="terminal-text">, </text><text x="365" y="140" class="terminal-text" fill="#a5d6ff">"System Design"</text><text x="490" y="140" class="terminal-text">],</text>
+    <text x="20" y="165" class="terminal-text" fill="#7ee787">"status"</text><text x="85" y="165" class="terminal-text">: </text><text x="100" y="165" class="terminal-text" fill="#a5d6ff">"Building things that matter"</text>
+    <text x="0" y="190" class="terminal-text" fill="#e6edf3">}</text>
 
-    <text x="40" y="270" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">>> DOMAINS</text>
-    <rect x="40" y="285" width="130" height="24" rx="4" fill="#21262D"/>
-    <text x="50" y="301" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">Language Design</text>
-
-    <rect x="180" y="285" width="160" height="24" rx="4" fill="#21262D"/>
-    <text x="190" y="301" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">Compiler Engineering</text>
-
-    <rect x="350" y="285" width="100" height="24" rx="4" fill="#21262D"/>
-    <text x="360" y="301" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">WebAssembly</text>
-
-    <!-- Vertical Divider -->
-    <line x1="480" y1="60" x2="480" y2="380" stroke="#30363D" stroke-width="1"/>
-
-    <!-- Right Column: Tech Stack -->
-    <text x="520" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">>> TECH_STACK</text>
-
-    <!-- Languages -->
-    <text x="520" y="110" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">Languages:</text>
-    <rect x="520" y="125" width="60" height="24" rx="4" fill="#21262D" stroke="#7C8CFF" stroke-width="1"/>
-    <text x="535" y="141" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #7C8CFF;">C++</text>
-
-    <rect x="590" y="125" width="40" height="24" rx="4" fill="#21262D" stroke="#7C8CFF" stroke-width="1"/>
-    <text x="605" y="141" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #7C8CFF;">C</text>
-
-    <rect x="640" y="125" width="100" height="24" rx="4" fill="#21262D" stroke="#7C8CFF" stroke-width="1"/>
-    <text x="650" y="141" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #7C8CFF;">TypeScript</text>
-
-    <!-- Runtime -->
-    <text x="520" y="180" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">Runtime & Build:</text>
-    <rect x="520" y="195" width="100" height="24" rx="4" fill="#21262D"/>
-    <text x="530" y="211" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">WebAssembly</text>
-
-    <rect x="630" y="195" width="60" height="24" rx="4" fill="#21262D"/>
-    <text x="640" y="211" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">CMake</text>
-
-    <rect x="700" y="195" width="60" height="24" rx="4" fill="#21262D"/>
-    <text x="710" y="211" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">LLVM</text>
-
-    <!-- Infra -->
-    <text x="520" y="250" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">Infrastructure:</text>
-    <rect x="520" y="265" width="60" height="24" rx="4" fill="#21262D"/>
-    <text x="530" y="281" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">Linux</text>
-
-    <rect x="590" y="265" width="70" height="24" rx="4" fill="#21262D"/>
-    <text x="600" y="281" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">Docker</text>
-
-    <rect x="670" y="265" width="50" height="24" rx="4" fill="#21262D"/>
-    <text x="680" y="281" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; fill: #00EBC0;">GCP</text>
-
-    <!-- Footer decoration -->
-    <text x="520" y="360" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 10px; fill: #8B949E;">SYSTEM_ID: ZZZODE-VM-01</text>
-    <text x="680" y="360" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 10px; fill: #8B949E;">STATUS: OPERATIONAL</text>
-    </svg>
+    <!-- Command 3 -->
+    <text x="0" y="230" class="terminal-text">
+      <tspan class="prompt">➜</tspan> <tspan fill="#79c0ff">~</tspan> <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>
