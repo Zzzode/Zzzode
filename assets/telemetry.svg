@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg">
 
     <!-- Background Terminal Window -->
@@ -32,7 +33,7 @@
     </rect>
 
     <text x="500" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">31.7%</text>
-    <text x="600" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">9 hrs 6 mins</text>
+    <text x="600" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">9h 6m</text>
     
     <!-- Markdown Row -->
     <text x="40" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">Markdown</text>
@@ -45,7 +46,7 @@
     </rect>
 
     <text x="500" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">15.6%</text>
-    <text x="600" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">4 hrs 28 mins</text>
+    <text x="600" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">4h 28m</text>
     
     <!-- JSON Row -->
     <text x="40" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">JSON</text>
@@ -58,7 +59,7 @@
     </rect>
 
     <text x="500" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">13.3%</text>
-    <text x="600" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">3 hrs 49 mins</text>
+    <text x="600" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">3h 49m</text>
     
     <!-- TrafficScript Row -->
     <text x="40" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">TrafficScript</text>
@@ -71,7 +72,7 @@
     </rect>
 
     <text x="500" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">7.5%</text>
-    <text x="600" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 9 mins</text>
+    <text x="600" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2h 9m</text>
     
     <!-- CMake Row -->
     <text x="40" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">CMake</text>
@@ -84,7 +85,7 @@
     </rect>
 
     <text x="500" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">6.1%</text>
-    <text x="600" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">1 hr 45 mins</text>
+    <text x="600" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">1h 45m</text>
     
     <line x1="40" y1="305" x2="760" y2="305" stroke="#30363D" stroke-width="1"/>
     

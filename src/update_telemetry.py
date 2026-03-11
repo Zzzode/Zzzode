@@ -39,8 +39,9 @@ def generate_svg(data: dict, total: str, daily_avg: str, repo_stats: dict) -> st
     s_value = f"font-family: {font_family}; font-size: 14px; font-weight: bold; fill: {accent_blue};"
     s_dim = f"font-family: {font_family}; font-size: 14px; fill: #8B949E;"
 
-    # SVG Header
-    svg = f'''<svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+    # SVG Header with XML declaration
+    svg = f'''<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg">
 
     <!-- Background Terminal Window -->
     <rect x="0" y="0" width="800" height="340" rx="10" fill="{bg_color}" stroke="{border_color}" stroke-width="2"/>
@@ -145,7 +146,9 @@ def generate_profile_svg() -> str:
     s_dim = f"font-family: {font_family}; font-size: 14px; fill: {dim_text};"
     s_dim_small = f"font-family: {font_family}; font-size: 10px; fill: {dim_text};"
 
-    svg = f'''<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    # SVG Header with XML declaration
+    svg = f'''<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
 
     <!-- Background Terminal Window -->
     <rect x="0" y="0" width="800" height="400" rx="10" fill="{bg_color}" stroke="{border_color}" stroke-width="2"/>
@@ -199,7 +202,7 @@ def generate_profile_svg() -> str:
     <text x="650" y="141" style="{s_tag_blue}">TypeScript</text>
 
     <!-- Runtime -->
-    <text x="520" y="180" style="{s_dim}">Runtime & Build:</text>
+    <text x="520" y="180" style="{s_dim}">Runtime &amp; Build:</text>
     <rect x="520" y="195" width="100" height="24" rx="4" fill="{tag_bg}"/>
     <text x="530" y="211" style="{s_tag}">WebAssembly</text>
 
@@ -309,10 +312,6 @@ def main():
     profile_svg = generate_profile_svg()
     (assets_dir / "profile.svg").write_text(profile_svg, encoding="utf-8")
     print("Generated assets/profile.svg")
-
-
-if __name__ == "__main__":
-    main()
 
 
 if __name__ == "__main__":
