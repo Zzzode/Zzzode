@@ -17,87 +17,22 @@
 
     <!-- Stats Header -->
     <text x="40" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">UPTIME (7d):</text>
-    <text x="150" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">50 hrs 52 mins</text>
+    <text x="150" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">N/A</text>
 
     <text x="450" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">DAILY FLUX:</text>
-    <text x="560" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">7 hrs 16 mins</text>
+    <text x="560" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">N/A</text>
     
-    <!-- C++ Row -->
-    <text x="40" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">C++</text>
-
-    <!-- Progress Bar Background -->
-    <rect x="180" y="120" width="300" height="16" rx="4" fill="#21262D"/>
-    <!-- Progress Bar Fill -->
-    <rect x="180" y="120" width="83" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="83" dur="1s" fill="freeze" />
-    </rect>
-
-    <text x="500" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">27.9%</text>
-    <text x="600" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">14 hrs 10 mins</text>
+    <line x1="40" y1="130" x2="760" y2="130" stroke="#30363D" stroke-width="1"/>
     
-    <!-- TypeScript Row -->
-    <text x="40" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">TypeScript</text>
+    <text x="80" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">REPOS:</text>
+    <text x="140" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">69</text>
 
-    <!-- Progress Bar Background -->
-    <rect x="180" y="155" width="300" height="16" rx="4" fill="#21262D"/>
-    <!-- Progress Bar Fill -->
-    <rect x="180" y="155" width="81" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="81" dur="1s" fill="freeze" />
-    </rect>
+    <text x="240" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">STARS:</text>
+    <text x="300" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">11</text>
 
-    <text x="500" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">27.2%</text>
-    <text x="600" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">13 hrs 50 mins</text>
-    
-    <!-- Other Row -->
-    <text x="40" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">Other</text>
+    <text x="400" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">FORKS:</text>
+    <text x="460" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">5</text>
 
-    <!-- Progress Bar Background -->
-    <rect x="180" y="190" width="300" height="16" rx="4" fill="#21262D"/>
-    <!-- Progress Bar Fill -->
-    <rect x="180" y="190" width="56" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="56" dur="1s" fill="freeze" />
-    </rect>
-
-    <text x="500" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">18.7%</text>
-    <text x="600" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">9 hrs 31 mins</text>
-    
-    <!-- Markdown Row -->
-    <text x="40" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">Markdown</text>
-
-    <!-- Progress Bar Background -->
-    <rect x="180" y="225" width="300" height="16" rx="4" fill="#21262D"/>
-    <!-- Progress Bar Fill -->
-    <rect x="180" y="225" width="21" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="21" dur="1s" fill="freeze" />
-    </rect>
-
-    <text x="500" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">7.2%</text>
-    <text x="600" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">3 hrs 39 mins</text>
-    
-    <!-- HTML Row -->
-    <text x="40" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">HTML</text>
-
-    <!-- Progress Bar Background -->
-    <rect x="180" y="260" width="300" height="16" rx="4" fill="#21262D"/>
-    <!-- Progress Bar Fill -->
-    <rect x="180" y="260" width="16" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="16" dur="1s" fill="freeze" />
-    </rect>
-
-    <text x="500" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">5.4%</text>
-    <text x="600" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 45 mins</text>
-    
-    <line x1="40" y1="305" x2="760" y2="305" stroke="#30363D" stroke-width="1"/>
-    
-    <text x="80" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">REPOS:</text>
-    <text x="140" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">69</text>
-
-    <text x="240" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">STARS:</text>
-    <text x="300" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">11</text>
-
-    <text x="400" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">FORKS:</text>
-    <text x="460" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">5</text>
-
-    <text x="560" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">FOLLOWERS:</text>
-    <text x="650" y="330" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">13</text>
+    <text x="560" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">FOLLOWERS:</text>
+    <text x="650" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">13</text>
     </svg>
