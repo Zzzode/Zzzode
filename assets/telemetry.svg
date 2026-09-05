@@ -17,10 +17,10 @@
 
     <!-- Stats Header -->
     <text x="40" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">UPTIME (7d):</text>
-    <text x="150" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">70 hrs</text>
+    <text x="150" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">56 hrs 58 mins</text>
 
     <text x="450" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">DAILY FLUX:</text>
-    <text x="560" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">10 hrs</text>
+    <text x="560" y="80" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">8 hrs 8 mins</text>
     
     <!-- C++ Row -->
     <text x="40" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">C++</text>
@@ -28,12 +28,12 @@
     <!-- Progress Bar Background -->
     <rect x="180" y="120" width="300" height="16" rx="4" fill="#21262D"/>
     <!-- Progress Bar Fill -->
-    <rect x="180" y="120" width="141" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="141" dur="1s" fill="freeze" />
+    <rect x="180" y="120" width="129" height="16" rx="4" fill="#00EBC0">
+        <animate attributeName="width" from="0" to="129" dur="1s" fill="freeze" />
     </rect>
 
-    <text x="500" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">47.2%</text>
-    <text x="600" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">33 hrs 3 mins</text>
+    <text x="500" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">43.0%</text>
+    <text x="600" y="132" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">24 hrs 30 mins</text>
     
     <!-- Markdown Row -->
     <text x="40" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">Markdown</text>
@@ -41,12 +41,12 @@
     <!-- Progress Bar Background -->
     <rect x="180" y="155" width="300" height="16" rx="4" fill="#21262D"/>
     <!-- Progress Bar Fill -->
-    <rect x="180" y="155" width="110" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="110" dur="1s" fill="freeze" />
+    <rect x="180" y="155" width="115" height="16" rx="4" fill="#00EBC0">
+        <animate attributeName="width" from="0" to="115" dur="1s" fill="freeze" />
     </rect>
 
-    <text x="500" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">36.7%</text>
-    <text x="600" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">25 hrs 41 mins</text>
+    <text x="500" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">38.6%</text>
+    <text x="600" y="167" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">22 hrs</text>
     
     <!-- TypeScript Row -->
     <text x="40" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">TypeScript</text>
@@ -54,11 +54,11 @@
     <!-- Progress Bar Background -->
     <rect x="180" y="190" width="300" height="16" rx="4" fill="#21262D"/>
     <!-- Progress Bar Fill -->
-    <rect x="180" y="190" width="12" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="12" dur="1s" fill="freeze" />
+    <rect x="180" y="190" width="14" height="16" rx="4" fill="#00EBC0">
+        <animate attributeName="width" from="0" to="14" dur="1s" fill="freeze" />
     </rect>
 
-    <text x="500" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">4.0%</text>
+    <text x="500" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">4.9%</text>
     <text x="600" y="202" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 48 mins</text>
     
     <!-- Python Row -->
@@ -67,12 +67,12 @@
     <!-- Progress Bar Background -->
     <rect x="180" y="225" width="300" height="16" rx="4" fill="#21262D"/>
     <!-- Progress Bar Fill -->
-    <rect x="180" y="225" width="11" height="16" rx="4" fill="#00EBC0">
-        <animate attributeName="width" from="0" to="11" dur="1s" fill="freeze" />
+    <rect x="180" y="225" width="12" height="16" rx="4" fill="#00EBC0">
+        <animate attributeName="width" from="0" to="12" dur="1s" fill="freeze" />
     </rect>
 
-    <text x="500" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">3.9%</text>
-    <text x="600" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 44 mins</text>
+    <text x="500" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">4.3%</text>
+    <text x="600" y="237" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 27 mins</text>
     
     <!-- CMake Row -->
     <text x="40" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">CMake</text>
@@ -84,8 +84,8 @@
         <animate attributeName="width" from="0" to="11" dur="1s" fill="freeze" />
     </rect>
 
-    <text x="500" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">3.8%</text>
-    <text x="600" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 39 mins</text>
+    <text x="500" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #C9D1D9;">3.7%</text>
+    <text x="600" y="272" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #8B949E;">2 hrs 7 mins</text>
     
     <line x1="40" y1="305" x2="760" y2="305" stroke="#30363D" stroke-width="1"/>
     
