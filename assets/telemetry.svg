@@ -25,7 +25,7 @@
     <line x1="40" y1="130" x2="760" y2="130" stroke="#30363D" stroke-width="1"/>
     
     <text x="80" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">REPOS:</text>
-    <text x="140" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">76</text>
+    <text x="140" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">77</text>
 
     <text x="240" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #FF4FD8;">STARS:</text>
     <text x="300" y="155" style="font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #7C8CFF;">14</text>
